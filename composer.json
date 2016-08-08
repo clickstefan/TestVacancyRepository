@@ -1,0 +1,25 @@
+{
+    "name": "endouble/TheVacancyRepositoryProblem",
+    "description": "The Vacancy Repository problem",
+    "authors": [
+        {
+          "name": "Stefan Rogin",
+          "email": "stefan.rogin2000@gmail.com",
+          "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.7.*"
+    },
+    "scripts": {
+        "test": [
+            "phpunit"
+        ]
+    },
+    "autoload": {
+        "psr-4": {"Endouble\\TheVacancyRepositoryProblem\\": "src/"},
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
+    }
+}
